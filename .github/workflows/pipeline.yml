@@ -55,6 +55,7 @@ jobs:
       # ✅ PASSO 4
       - name: Gerar hash
         run: |
+          RANDOM_NUM=$RANDOM
           echo "BUILD_HASH=$RANDOM" >> $GITHUB_ENV
 
       # ✅ PASSO 5
